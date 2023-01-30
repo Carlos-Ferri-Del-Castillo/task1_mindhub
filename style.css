@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-image: url(./assets/design1_image2.jpg);
+    height: 20vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+}
+
+h1 {
+    text-align: left;
+    font-family: cursive;
+}
+
+h2 {
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+h3 {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+nav {
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    background-color:#4B8BDD;
+    color: white;
+    margin: 3px;
+    padding: 5px 20px;
+    border: 2px solid black;
+    text-align: right;
+    display: inline;  
+}
+
+a:hover {
+    background-color: #5CC340;
+    color: white;
+    border-color: black;
+}
+
+a:active {
+    background-color: #5CC340;
+    color: white;
+    border-color: black;
+}
+
+main {
+    position: relative; 
+}
+
+#contenedor_logo {
+    width: 200px;
+    height: 200px;
+}
+
+#logo {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+p {
+    text-indent: 1rem;
+}
+
+#calendario {
+     position: relative;
+     bottom: 200px;
+}
+
+.fechas {
+    margin-left: 200px;
+    margin-bottom: 200px;
+    background-color: white;
+    color: black;
+    text-align: start;
+    display: inline;
+    position: absolute;
+    top: 50px;
+    left: 20px;   
+}
+
+#about {
+    position: relative;
+    bottom: 200px;
+    right: 50px;
+}
+
+
+#contacto {
+    position: relative;
+    bottom: 200px;
+   
+}
+
+.informacion {
+    margin-left: 200px;
+    margin-bottom: 200px;
+    background-color: white;
+    color: black;
+    text-align: start;
+    display: inline;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.email {
+    margin-left: 100px;
+    margin-bottom: 200px;
+    background-color: white;
+    color: black;
+    text-align: start;
+    display: inline;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.email p {
+    text-indent: 0rem;
+}
