@@ -7,35 +7,54 @@
 
 .header {
     background-image: url(./assets/design1_image2.jpg);
-    height: 20vh;
-    min-width: 100vw;
+    height: 30vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 30%;
+    background-position: 0% 25%;
 }
 
 h1 {
     text-align: left;
     font-family: cursive;
+    background-color:#fbe32c;
+    border: 3px solid black;
+    font-size: 35px;
 }
 
 h2 {
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: #5ba39b; 
+    color:white;
+    font-size: 28px;
     border: 2px solid black;
 }
 
 h3 {
     text-align: left;
-    color: black;
+    color: #c34c34;
     font-weight: bold;
+}
+
+h4 {
+    text-align: start;
+    color:#c34c34; 
+    font-size: 25px;
+    text-align: center;
+}
+
+h5 {
+    text-align: start;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 nav {
     text-align: right;
     position: absolute;
-    top: 30px;
+    top: 40px;
     right: 5px;
     display: inline;
 }
@@ -50,6 +69,7 @@ nav a {
     padding: 5px 20px;
     border: 2px solid black;
     text-align: right;
+    border-radius: 10px;
     display: inline;  
 }
 
@@ -65,81 +85,118 @@ a:active {
     border-color: black;
 }
 
-main {
-    position: relative; 
+.contenedor_flex {
+    background-color: white;
+    height: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
-#contenedor_logo {
-    width: 200px;
-    height: 200px;
+.logo {
+   background-color: white;
+   padding: 10px;
 }
 
-#logo {
-    height: 110px;
-    width: 110px;
-    position: absolute;
-    top: 30px;
-    left: 20px;
+.tamaño_logo{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
 }
 
 p {
     text-indent: 1rem;
 }
 
-#calendario {
-     position: relative;
-     bottom: 200px;
-}
-
 .fechas {
-    margin-left: 200px;
-    margin-bottom: 200px;
     background-color: white;
     color: black;
     text-align: start;
-    display: inline;
-    position: absolute;
-    top: 50px;
-    left: 20px;   
-}
-
-#about {
-    position: relative;
-    bottom: 200px;
-    right: 50px;
-}
-
-
-#contacto {
-    position: relative;
-    bottom: 200px;
-   
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .informacion {
-    margin-left: 200px;
-    margin-bottom: 200px;
     background-color: white;
     color: black;
     text-align: start;
-    display: inline;
-    position: absolute;
-    top: 50px;
-    left: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
 }
 
 .email {
-    margin-left: 100px;
-    margin-bottom: 200px;
     background-color: white;
     color: black;
     text-align: start;
-    display: inline;
-    position: absolute;
-    top: 50px;
-    left: 100px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .email p {
     text-indent: 0rem;
+}
+
+.calendario_partidos {
+    background-color: white;
+    color: black;
+    text-align: start;
+    justify-content: center;
+    padding: 20px; 
+    margin-top: 20px;      
+}
+
+table {
+    background-color: white;
+    width: 50vw;
+    height: 30vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-collapse:collapse;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: black;
+    font-size: 20px;
+}
+
+th, td {
+    border: 2px solid black;
+}
+
+th {background-color: #c34c34;padding: 20px;}
+
+td {
+    padding: 20px;
+    background-color: #fbe32c;
+}
+
+.informacion_adicional {
+    background-color: white;
+    color: black;
+    text-align: start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.caja_reglas {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.sublista {
+    list-style-type: lower-alpha;
+}
+
+.concepto_juego {
+    list-style-type:none;
+    text-indent: 2rem;
+}
+.entrenador {
+    list-style-type:circle;
 }
