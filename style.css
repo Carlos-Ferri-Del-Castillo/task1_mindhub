@@ -31,16 +31,17 @@ h2 {
 }
 
 h3 {
-    text-align: left;
-    color: #c34c34;
-    font-weight: bold;
-}
-
-h4 {
-    text-align: start;
+   text-align: start;
     color:#c34c34; 
     font-size: 25px;
     text-align: center;
+}
+
+h4 {
+    text-align: left;
+    color: #c34c34;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 h5 {
@@ -48,7 +49,14 @@ h5 {
     color:black;
     font-size: 20px;
     text-align: center;
-    text-decoration: underline;
+}
+
+h6 {
+    text-align: start;
+    color:black;
+    font-size: 15px;
+    text-align: left;
+    font: solid;
 }
 
 nav {
@@ -168,11 +176,21 @@ th, td {
     border: 2px solid black;
 }
 
-th {background-color: #c34c34;padding: 20px;}
+th {
+    background-color: #c34c34;padding: 20px;
+}
 
 td {
     padding: 20px;
     background-color: #fbe32c;
+}
+
+.mapa_locaciones {
+    background-color: white;
+    padding: 20px; 
+    margin-top: 20px; 
+    text-align: start;
+    justify-content: center;
 }
 
 .informacion_adicional {
@@ -197,6 +215,80 @@ td {
     list-style-type:none;
     text-indent: 2rem;
 }
+
 .entrenador {
     list-style-type:circle;
+}
+
+.formulario {
+    background-color: white;
+    color: black;
+    text-align: start;
+    justify-content: center;
+    padding: 20px; 
+    margin: 10px;
+    margin-top: 20px;   
+}
+
+form{
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+fieldset{
+    background-color: #fbe32c;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+    border: none;
+}
+
+label {
+    color: solid;
+}
+
+legend{
+    color: black;
+    text-decoration: solid;
+    padding: 0.2rem;
+    text-decoration: underline;
+}
+
+iframe{
+    border-radius: 1rem;
+    border: 2px solid white;
+    margin: 1rem;
+}
+
+.boton_enviar {
+    display: flex;
+   justify-content: center;
+    cursor: pointer;
+}
+
+.permiso_firma {
+    padding: 10px; 
+    margin: 20px;   
+}
+
+.permiso_juego {
+    background-color: #fbe32c;
+    color: black;
+    text-align: start;
+    justify-content: center;
+    padding: 15px; 
+    margin: 10px;   
+    list-style-type:none;
+    text-indent: 2rem;
+}
+
+.firma_tutor { 
+    background-color: #fbe32c; 
+    padding: 10px; 
+    margin: 10px;  
+    margin-bottom: 50px;
+    align-content: center;
 }
